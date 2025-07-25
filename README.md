@@ -17,4 +17,5 @@
 ✅ Headful mode toggle (--headful)
 
 
-## Usage:  python3 borg.py --proxylist proxy.txt --urls urls.txt --loops 1000 --wait 10 --logformat txt
+## Usage:  
+python3 borg.py --proxylist proxy.txt --urls urls.txt --loops 1000 --wait 10 --logformat txt
