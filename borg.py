@@ -20,7 +20,6 @@ import argparse
 parser = argparse.ArgumentParser(description="Web Traffic Bot with Proxy Support")
 
 parser.add_argument('--proxylist', help='Path to your Proxylist file')
-#parser.add_argument('--url', help='Full URL to Autovisit (with http:// or https://)')
 parser.add_argument('--urls', help='Path to file with list of URLs (one per line)')
 parser.add_argument('--loops', type=int, help='How many times to loop through the full proxy list')
 parser.add_argument('--wait', type=float, help='How many seconds to wait between each proxy request')
