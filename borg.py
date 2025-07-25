@@ -75,7 +75,7 @@ referers = [
     'http://twitter.com', 'http://youtube.com', 'http://instagram.com',
 ]
 
-# === Core Bot Function (Updated) ===
+# === Main Bot Function (Updated) ===
 def bot(proxy_address):
     proxy = proxy_address.strip()
 
